@@ -88,7 +88,7 @@ server.get("/search", (req, res) => {
 // 라우터 등록
 server.use(router);
 // 서버를 3030 포트에서 실행
-server.listen(3000, () => {
+server.listen(3030, () => {
   console.log("JSON Server is running");
 });
 
